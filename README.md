@@ -1,4 +1,3 @@
-# Cognifyr
 # AI-Powered Solutions
 
 Welcome to our GitHub repository for AI-powered solutions! Here, we showcase innovative products and services designed to streamline business operations, enhance customer engagement, and revolutionize industries using cutting-edge artificial intelligence.
