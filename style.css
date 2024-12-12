@@ -969,7 +969,11 @@ body.light-theme {
 
   .work__filters {
     column-gap: 0.25rem;
-
+    display: flex; /* Align the buttons horizontally */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent text wrapping */
+    padding: 1rem; /* Add padding for spacing */
+    gap: 0.5rem; /* Add spacing between buttons */
   }
   .work__img {
     width: 100%; /* Make the image take full width of the card */
