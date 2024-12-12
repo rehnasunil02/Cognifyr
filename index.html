@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5"> -->
+    <link rel="shortcut icon" href="favicons/logo cognifyr.ico">
+    <!-- <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicons/browserconfig.xml">
+    <meta name="theme-color" content="#a789d4"> -->
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cognifyr website</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Cognifyr.co</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item ">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item ">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+
+                    
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class='bx bx-collection'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--=============== theme change button ===============-->
+            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting"></span>
+                    <h1 class="home__name">COGNIFYR.CO</h1><br>
+                    <h3 class="home__education">Revolutionize Your Business with Cutting-Edge AI Solutions  
+                        Empowering Growth, Efficiency, and Customer Success!</h3>
+
+                    <div class="home__button">
+                        <a href="#services" class="button button--ghost">Services</a>
+
+                        <a href="#about" class="button">About</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="assets/img/main.jpg" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/company/cognifyr-co/?originalSubdomain=in" target="_blank" class="home__social-link">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/Cognifyr/" target="_blank" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <!-- <a href="#" target="_blank" class="home__social-link">
+                        <i class='bx bxl-globe'></i>
+                    </a> -->
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class='bx bx-mouse home__scroll-icon'></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title">About Us</h2>
+
+            <div class="about__container container grid">
+                <img src="assets/img/logo cognifyr.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class='bx bx-current-location about__icon'></i>
+                            <h3 class="about__title">Location</h3>
+                            <span class="about__subtitle">Kochi, Ernakulam</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-briefcase-alt about__icon'></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">48+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class='bx bx-calendar-check about__icon'></i>
+                            <h3 class="about__title">Years</h3>
+                            <span class="about__subtitle">8+ years</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Unlock the power of AI with Cognifyr.co! Our cutting-edge AI solutions are here to revolutionize your business. From streamlining operations with virtual assistants and intelligent document processors to boosting customer engagement through personalized recommendations and sentiment analysis, we've got you covered. Explore our game-changing tools in business automation, sales, customer insights, healthcare, and more. Ready to take your business to the next level? Dive into our world of AI-powered solutions and let us help you stay ahead of the curve!
+                    </p>
+
+                    <a href="#contact" class="button about__button-contact">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title">What We Offer</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <div class="serv">
+                        <h3 class="services__title">Text <br> Solutions</h3>
+
+                        <span class="services__button">
+                            See More <i class='bx bx-right-arrow services__icon'></i>
+                        </span>
+                    </div>
+
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Text Solutions</h3>
+
+                            <p class="services__modal-description">
+                                Transform your written content with AI-driven solutions that ensure high quality, readability, and engagement.
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Improve clarity, consistency, and flow of written material.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Optimize content for various platforms like blogs, websites, and emails.  
+     
+   
+
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Enhance user engagement by ensuring language resonates with target audiences.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Detect and correct grammar, spelling, and style issues automatically.
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">AI <br> Agents</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">AI Agents</h3>
+
+                            <p class="services__modal-description">
+                                Automate customer service and business operations with intelligent AI agents designed to improve efficiency and satisfaction. 
+    
+     
+     
+   
+
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Provide 24/7 support to customers with quick, accurate responses. 
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Handle routine tasks like booking, scheduling, and answering queries.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Learn from interactions to improve responses and adapt over time.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Integrate seamlessly into existing systems like CRMs and helpdesk platforms..
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Custom<br> Trained Models</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">Custom Trained Models</h3>
+
+                            <p class="services__modal-description">
+                                Leverage AI models tailored specifically to your business needs for smarter decision-making and optimized operations.  
+    
+     
+   
+
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Develop models trained on your unique business data and requirements.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Improve predictive analytics for more accurate business forecasting. 
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Adapt models as your business grows, ensuring ongoing relevance and accuracy.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Implement solutions across various industries such as finance, healthcare, and retail.
+                                    </p>
+                                </li>
+
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">SEO<br> Optimization</h3>
+
+                    <span class="services__button">
+                        See More <i class='bx bx-right-arrow services__icon'></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class='bx bx-x services__modal-close'></i>
+
+                            <h3 class="services__modal-title">SEO Optimization</h3>
+
+                            <p class="services__modal-description">
+                                Boost your website's search engine rankings with AI-powered SEO tools that optimize content and enhance online visibility.
+     
+                            </p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Analyze keywords, trends, and competitor strategies for effective SEO. 
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Optimize on-page content and metadata to align with best SEO practices. 
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Generate data-driven recommendations to enhance website traffic. 
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-item">
+                                    <i class='bx bx-check-circle'></i>
+                                    <p class="services__modal-info">
+                                        Monitor and adjust SEO strategies in real-time based on performance and competition.
+                                    </p>
+                                </li>
+
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="services">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title">Services</h2>
+            
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all' id="all_class">All</span>
+                <span class=" work__item" data-filter='.business'>Business <br> Automation</span>
+                <span class=" work__item" data-filter='.customer'>Customer <br> Insights</span>
+                <span class=" work__item" data-filter='.oper'>Operations &<br> Productivity</span>
+                <span class=" work__item" data-filter='.design'>Creative <br> Tools</span>
+                <span class=" work__item" data-filter='.marketing'>Marketing</span>
+                <span class=" work__item" data-filter='.finance'>Finance</span>
+                <span class=" work__item" data-filter='.forecast'>Forecasting</span>
+                <span class=" work__item" data-filter='.learning'>Learning</span>
+                <span class=" work__item" data-filter='.other'>Others</span>
+                
+            </div>
+            
+            <div class="work__container container grid">
+
+                <div class="work__card mix business">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/virtual asst.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Virtual Assistant <br> for scheduling</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Stay organized effortlessly!</h3>
+                            <p class="work__back-description">AI that manages calendars, books meetings, and resolves scheduling conflicts.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix business">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/customer.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Customer Feedback <br>Analyzer</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Transform reviews into insights!</h3>
+                            <p class="work__back-description">Analyze customer reviews with NLP to generate actionable sentiment analysis.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix business">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/employee.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Employee Training and<br>Onboarding Bot</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Welcome new hires with ease!</h3>
+                            <p class="work__back-description">Automate onboarding and training with a guided AI assistant.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix business">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/hr.jpg" alt="" class="work__img">
+                            <h3 class="work__title">HR Support<br>Assistant</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Welcome new hires with ease!</h3>
+                            <p class="work__back-description">Automate onboarding and training with a guided AI assistant.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix business">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/market.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Market Research<br>Analyzer</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Stay ahead of the competition!</h3>
+                            <p class="work__back-description">AI that collects and analyzes market trends, customer preferences, and competitor strategies.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix business">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/document.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Intelligent Document<br>Processor</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">No more manual data entry!</h3>
+                            <p class="work__back-description">AI that extracts and categorizes data from invoices, receipts, and forms.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix business">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/email.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Email<br>Summarizer</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Take control of your inbox!</h3>
+                            <p class="work__back-description">AI that summarizes long email threads to keep you focused on the key points.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix business">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/translate.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Real-Time<br>Translation Service</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Break down language barriers!</h3>
+                            <p class="work__back-description">Instant language translation for customer service teams interacting globally.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work__card mix customer">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/recomm.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Recommendation<br>Engine</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Provide personalized experiences!</h3>
+                            <p class="work__back-description">AI that offers tailored recommendations based on user behavior.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix customer">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/health.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Virtual Healthcare<br>Assistant</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Your health assistant, 24/7!</h3>
+                            <p class="work__back-description">AI-powered assistant for appointment bookings, health queries, and medication reminders.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix customer">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/text to speech.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Speech-to-Text<br>Service</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Capture every conversation!</h3>
+                            <p class="work__back-description">AI-driven transcription for meetings, lectures, or any audio content.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix customer">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/sentiment.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Sentiment<br>Monitoring Tool</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Track your brand sentiment!</h3>
+                            <p class="work__back-description">AI that monitors social media and digital channels for brand sentiment.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix customer">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/legal.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Automated<br> Legal Assistant</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Simplify legal tasks!</h3>
+                            <p class="work__back-description">AI that drafts contracts, processes legal documents, and ensures compliance.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="work__card mix oper">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/maintanence sys.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Predictive<br> Maintenance System</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Prevent costly downtime!</h3>
+                            <p class="work__back-description">AI that predicts machinery maintenance needs using IoT and analytics.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix oper">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/inventory manager.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Smart Inventory<br> Manager</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Optimize your inventory management!</h3>
+                            <p class="work__back-description">AI that monitors stock levels, predicts shortages, and automates reordering.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix oper">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/finance-8836903_640.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Financial<br> Assistant</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Manage your finances with AI!</h3>
+                            <p class="work__back-description">An AI tool that analyzes financial data and provides forecasting</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix oper">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/recruitment-6838250_1280.png" alt="" class="work__img">
+                            <h3 class="work__title">Recruitment<br> Assistant</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Streamline your hiring process!</h3>
+                            <p class="work__back-description">AI that automates resume screening, interview scheduling, and candidate tracking.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix oper">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/leadership-7000851_640.png" alt="" class="work__img">
+                            <h3 class="work__title">Lead Scoring<br>System</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Find your best leads!</h3>
+                            <p class="work__back-description">AI that ranks leads based on potential and engagement for smarter marketing.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix oper">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/customer retention.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Customer Retention<br>Predictor</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Keep your customers loyal!</h3>
+                            <p class="work__back-description">Machine learning models that predict which customers are likely to churn.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix oper">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/fraud.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Fraud Detection<br>System</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Stay ahead of fraud!</h3>
+                            <p class="work__back-description">AI that monitors transactions for fraudulent activities in real-time.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix design">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/event.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Event Planning<br>Assistant</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Plan flawless events with AI!</h3>
+                            <p class="work__back-description">Automate event planning tasks like vendor coordination and guest list management.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix design">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/knowledge base.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Knowledge Base<br>Generator</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Create AI-driven knowledge bases effortlessly!</h3>
+                            <p class="work__back-description">Transform existing documents into a searchable, organized knowledge base.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix design">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/personalized learning.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Personalized <br>Learning Pathways</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Education tailored just for you!</h3>
+                            <p class="work__back-description">AI that analyzes learning patterns and suggests customized educational content.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix design">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/pexels-thisisengineering-3861969.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Dynamic Pricing<br> Engine</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Price smarter, not harder!</h3>
+                            <p class="work__back-description">AI that adjusts prices in real-time based on demand, competition, and customer behavior. </p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix design">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/real estate.png" alt="" class="work__img">
+                            <h3 class="work__title">Virtual Real Estate<br> Agent</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Find your perfect property!</h3>
+                            <p class="work__back-description"> AI that assists with property searches and personalized recommendations </p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work__card mix design">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/productivity coach.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Productivity <br>Coach</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Stay focused, stay productive!</h3>
+                            <p class="work__back-description"> AI that tracks your productivity and provides personalized time management tips.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix marketing">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/Ai automation.png" alt="" class="work__img">
+                            <h3 class="work__title">Sales Automation <br>Tool</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Close deals faster with AI!</h3>
+                            <p class="work__back-description"> Automate routine sales tasks and free up time for relationship-building.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix marketing">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/content generation.png" alt="" class="work__img">
+                            <h3 class="work__title">Social Media <br>Content Generator</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Create content that resonates!</h3>
+                            <p class="work__back-description"> AI-powered tool to generate posts aligned with your brand’s voice and trending topics</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix marketing">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/ai-powered chat moderation.png" alt="" class="work__img">
+                            <h3 class="work__title">AI-Powered<br>Chat Moderation</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Keep your community safe and engaged!</h3>
+                            <p class="work__back-description"> AI that moderates chat forums and communities in real time</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="work__card mix marketing">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/intelligent it support (1).jpg" alt="" class="work__img">
+                            <h3 class="work__title">Intelligent <br>IT Support</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">solve IT issues instantly!</h3>
+                            <p class="work__back-description">AI-powered troubleshooting for common IT problems, reducing support tickets.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>    
+                  </div>
+
+                  <div class="work__card mix finance">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/resume_builder.png" alt="" class="work__img">
+                            <h3 class="work__title">Smart Resume <br>Builder</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Build resumes that stand out!</h3>
+                            <p class="work__back-description"> AI-powered resume builder that tailors content to job descriptions.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix finance">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/behavioral.png" alt="" class="work__img">
+                            <h3 class="work__title">Behavioral Analysis <br>for HR</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Boost employee engagement and retention!</h3>
+                            <p class="work__back-description">AI that analyzes employee behavior and helps improve workplace dynamics.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix finance">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/queue.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Smart Customer <br>Queue System</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Reduce wait times with AI!</h3>
+                            <p class="work__back-description">AI that manages customer wait times and flow in service settings.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix finance">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/marketing-campaign.png" alt="" class="work__img">
+                            <h3 class="work__title">Personalized Marketing <br>Campaigns</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Marketing that speaks to each customer!</h3>
+                            <p class="work__back-description">AI that automates targeted campaigns based on customer data</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix finance">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/Dynamic_FAQ_Bot.png" alt="" class="work__img">
+                            <h3 class="work__title">Dynamic<br>FAQ Bot</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Answers that evolve over time!</h3>
+                            <p class="work__back-description">AI that continuously learns and improves to answer customer queries.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="work__card mix forecast">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/Visitor_Analytics_640x420.png" alt="" class="work__img">
+                            <h3 class="work__title">Visitor Analytics <br>for Websites</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Turn insights into action!</h3>
+                            <p class="work__back-description">AI that provides insights on visitor behavior to improve website engagement</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix forecast">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/sales_forecasting_dashboard.png" alt="" class="work__img">
+                            <h3 class="work__title">Sales Forecasting <br>Tool</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Predict future sales with precision!</h3>
+                            <p class="work__back-description">AI that uses historical data and trends to forecast sales.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="work__card mix forecast">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/Sentiment_Based_lead_prioritizer_640x420.png" alt="" class="work__img">
+                            <h3 class="work__title">Sentiment-Based <br>Lead Prioritizer</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Focus on leads that matter most!</h3>
+                            <p class="work__back-description">AI that scores leads based on sentiment and likelihood of conversion.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix forecast">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/health coach.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Virtual <br>Health Coach</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Stay healthy with personalized coaching!</h3>
+                            <p class="work__back-description">AI that offers personalized health tips, exercise routines, and meal plans.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix learning">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/to-learn-4229622_640.jpg" alt="" class="work__img">
+                            <h3 class="work__title">E-Learning<br>Content Generator</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Create content that captivates and educates!</h3>
+                            <p class="work__back-description">AI that automatically generates learning content tailored to various levels</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix learning">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/finance risk.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Financial Risk <br>Assessor</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Evaluate financial risks with AI precision!</h3>
+                            <p class="work__back-description">Analyzes financial data to help businesses identify and manage potential risks.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix other">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/content quality.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Content Quality <br>Checker</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Make every piece of content shine!</h3>
+                            <p class="work__back-description">AI that reviews and suggests improvements for content quality, tone, and readability</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix other">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/customer survey.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Automated <br>Customer Surveys</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Get feedback effortlessly!</h3>
+                            <p class="work__back-description"> AI that conducts surveys post-interaction to gauge satisfaction and collect insights.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix other">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/compilance.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Compliance Monitoring <br>Tool</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Stay compliant, effortlessly!</h3>
+                            <p class="work__back-description"> AI that tracks regulatory changes and ensures compliance in industries like finance or healthcare.</p><br><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix other">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/ai news.jpg" alt="" class="work__img">
+                            <h3 class="work__title">AI-Powered <br>News Aggregator</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Stay ahead with personalized news!</h3>
+                            <p class="work__back-description">AI that delivers tailored news summaries based on a user’s interests and industry relevance.</p><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix other">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/expense managemnt.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Expense Management <br>Assistant</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Track your expenses with AI efficiency!</h3>
+                            <p class="work__back-description"> Automates expense reporting and categorization for better budget management.</p><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix other">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/digital career coach.png" alt="" class="work__img">
+                            <h3 class="work__title">Digital<br>Career Coach</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Your personal career advisor, powered by AI!</h3>
+                            <p class="work__back-description">AI that provides career advice, resume feedback, and skill development resources.</p><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work__card mix Other">
+                    <div class="work__card-inner">
+                        <!-- Front Side -->
+                        <div class="work__card-front">
+                            <img src="assets/img/tour guide.jpg" alt="" class="work__img">
+                            <h3 class="work__title">Virtual<br>Tour Guide</h3>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                
+                        <!-- Back Side -->
+                        <div class="work__card-back">
+                            <h3 class="work__back-title">Create immersive experiences with AI!</h3>
+                            <p class="work__back-description">AI-driven virtual guides that provide personalized information during physical or virtual tours.</p><br><br><br>
+                            <a href="#" class="work__button">
+                                Flip <i class='bx bx-right-arrow work__icon'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+ 
+                
+                
+                
+
+                  
+        
+
+
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <!-- <section class="testimonial section">
+            <span class="section__subtitle">Our clients say</span>
+            <h2 class="section__title">Testimonials</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="/assets/img/testimonial11.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Mark Williams</h3>
+                        <p class="testimonial__description">
+                            The AI tools provided have genuinely revolutionized how we handle customer inquiries. 
+                            The virtual assistant has saved us hours of manual work every week.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="/assets/img/testimonial12.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Emily Thompson</h3>
+                        <p class="testimonial__description">
+                            We implemented the Sales Automation Tool and saw an immediate improvement in our team's efficiency. 
+                            The system's simplicity and accuracy have been a huge plus.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="/assets/img/testimonial13.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Daniel Harris</h3>
+                        <p class="testimonial__description">
+                            I've been using the Intelligent Document Processor, and it has completely changed our data-entry process.
+                            What used to take hours is now done in minutes!
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="/assets/img/testimonial14.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Lily Adams</h3>
+                        <p class="testimonial__description">
+                            As a healthcare provider, the Virtual Healthcare Assistant has been a game-changer. 
+                            It's improved patient engagement and allowed us to offer better service, especially with appointment scheduling.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section> -->
+        <section class="testimonial section">
+            <span class="section__subtitle">My clients say</span>
+            <h2 class="section__title">Testimonials</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial1.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Mark Williams</h3>
+                        <p class="testimonial__description">
+                            The AI tools provided have genuinely revolutionized how we handle customer inquiries. 
+                            The virtual assistant has saved us hours of manual work every week.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial2.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Emily Thompson</h3>
+                        <p class="testimonial__description">
+                            We implemented the Sales Automation Tool and saw an immediate improvement in our team's efficiency. 
+                            The system's simplicity and accuracy have been a huge plus.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Daniel Harris</h3>
+                        <p class="testimonial__description">
+                            I've been using the Intelligent Document Processor, and it has completely changed our data-entry process.
+                            What used to take hours is now done in minutes!
+                        </p>
+                    </div>
+                    <div class="testimonial__card swiper-slide">
+                        <img src="assets/img/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Lily Adams</h3>
+                        <p class="testimonial__description">
+                            As a healthcare provider, the Virtual Healthcare Assistant has been a game-changer. 
+                            It's improved patient engagement and allowed us to offer better service, especially with appointment scheduling.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <sapn class="section__subtitle">Get in touch</sapn>
+            <h3 class="section__title">Contact Us</h3>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title contact__title-info">Talk to Us</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">user@gmail.com</span>
+
+                            <a href="mailto:example@domain.com" target="_blank" class="contact__button">
+                                Write Us <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">1212121212</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+916969696969&text=Hey there!" target="_blank"
+                                class="contact__button">
+                                Write Us <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <!-- <div class="contact__card">
+                            <i class='bx bxl-twitter contact__card-icon'></i>
+                            <h3 class="contact__card-title">Twitter</h3>
+                            <span class="contact__card-data">usertw</span>
+
+                            <a href="https://twitter.com/usertw" target="_blank" class="contact__button">
+                                Write Us <i class='bx bx-right-arrow contact__button-icon'></i>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+
+                <!-- <div class="contact__content">
+                    <h3 class="contact__title contact__title-form">Write Us your Message</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Enter name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="text" placeholder="Enter email" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your Message"
+                                class="contact__form-input "></textarea>
+                        </div>
+
+
+                        <button class="button">
+                            Send Message
+                        </button>
+                    </form>
+
+                </div> -->
+
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Cognifyr.co</h1>
+
+            <ul class="footer__list">
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Home</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+                
+                <li class="footer__item">
+                    <a href="#services" class="footer__link">Services</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook footer__social-icon'></i>
+                    </a>
+                </li>
+                
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-linkedin footer__social-icon'></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram footer__social-icon'></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2022 S44WN. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+</body>
+
+</html>
