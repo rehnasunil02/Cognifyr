@@ -960,7 +960,7 @@ body.light-theme {
   }
   .work__filters {
     display: flex; /* Arrange buttons in a row */
-    flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+    flex-wrap: nowrap; /* Allow buttons to wrap to the next line */
     padding: 0.5rem; /* Add padding for spacing */
     justify-content: center; /* Center the buttons */
   }
